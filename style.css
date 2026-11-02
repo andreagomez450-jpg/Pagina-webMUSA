@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*/ header MENU O SEA ENCABEZADO*/
+.header{
+    background-color: #fff;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo{
+background-color: rgb(254, 254, 254);
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.logo img{
+    object-fit: cover;
+    height: 350%
+    
+    
+}
+.nav-list{
+    background-color: rgb(254, 254, 254);
+    width: 95%;
+    height: 100%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-style: bold;
+
+    
+}
+.nav li a{
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+    color: black;
+}
+/*seccion 1*/
+
+.section-1{
+
+    background-image: url(images/museo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;      
+    justify-content: flex-start; 
+    padding-left: 80px;        
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.cuadro{
+    background-color: white;
+    padding: 40px;
+    width: 380px; 
+    height: 350px;             
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 100px; 
+    }
+.section-1 h1{
+font-family:"DM Sans", sans-serif;
+font-size: 36px;
+font-style: bold;
+margin-bottom: 16px
+}
+.section-1 h2{
+    font-family:"DM Sans", sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+.rectangulo-negro{
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 12px 15px;
+    width: 1000px;             
+    max-width: 200px;        
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family:"DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -18px;        
+    text-decoration: none;   
+}
+.section-2{
+    background-color: red;
+    width: 100%;
+    height: 20vh;
+    min-height: auto;
+}
+.section-2 h1{
+    color: #fff;
+    font-family:"Yaldevi Colombo", sans-serif;
+    font-size: 36px;
+    padding: 15px 80px;
+}
+.section-2 p{
+    color: #fff;
+    font-family:"Yaldevi Colombo", sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    margin-top: -10px;
+}
+
+.section-3{
+    width: 100%;
+    height: 500%;
+
+}
+
+.dueño {
+    display: flex;
+    flex-direction: row;     
+    align-items: center;     
+    justify-content: center; 
+    gap: 40px;              
+    
+}
+
+.dueño img{
+   width: 410px; 
+    height: 350px; 
+}
+
+.section-3 p {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px; 
+    padding-right: 40px;
+}
+.section-3 p{
+    color: #000000;
+    font-family: "Yaldevi Colombo", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.titulo h1{
+    color: #000000;
+    font-family:"Yaldevi Colombo", sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    padding: 0px 80px;
+    margin-top: 30px;
+    margin-bottom: 100px
+}
+/*Contenedor principal de los 3 bloques*/
+.section-4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch; 
+    margin-left: 20px; 
+    margin-top: -70px;
+    box-sizing: border-box;
+}
+
+.foto { 
+    width: 30%; 
+    display: flex;
+    flex-direction: column; 
+    margin: 0 1%;
+}
+
+.imagen {
+    width: 100%; 
+    height: 250px; 
+    overflow: hidden;
+}
+
+.imagen img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.textos {
+    background-color: #b32d2d; 
+    width: 100%; 
+    padding: 25px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textos h1, .textos h2 {
+    color: #ffffff; 
+    font-family: "Yaldevi Colombo", sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.textos p {
+    color: #ffffff; 
+    font-family: "Yaldevi Colombo", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.titulo h1{
+    color: #000000;
+    font-family:"Yaldevi Colombo", sans-serif;
+    font-size: 36px;
+    font-style: bold;
+    padding: 0px 80px;
+    margin-top: 30px;
+    margin-bottom: 100px
+}
+
+.section-5{
+    width: 90%;
+    height: 100%;
+}
+.titulo-coleccion h1{
+    color: #000000;
+    font-family:"Yaldevi Colombo", sans-serif;
+    font-size: 90px;
+    font-style: bold;
+    padding: 0px 80px;
+    margin-top: 20px;
+
+}
+/*Contenedor principal de los 3 bloques coleccion*/
+
+.section-6{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch; 
+    margin-left: 20px; 
+    box-sizing: border-box;
+    margin-top: -0px;
+    padding: 20px;
+
+}
+
+.foto-6 { 
+    width: 30%; 
+    display: flex;
+    flex-direction: column; 
+    margin: 0 1%;
+}
+
+.imagen-6 {
+    width: 100%; 
+    height: 400px; 
+    overflow: hidden;
+}
+
+.imagen-6 img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.voluntariado-contenido h1{
+    color: #fff;
+    margin-top: 30px;
+}
+
+.textos-6 {
+ 
+    width: 100%; 
+    padding: 25px 20px;
+    background-color: #b32d2d;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    font-family:"Yaldevi Colombo", sans-serif; color: #fff;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recuadro{
+    background-color: #b32d2d;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.section-7{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; 
+    margin-top: 30px;
+    box-sizing: border-box;
+    font-family:"DM Sans", sans-serif;
+    margin-left: 7%;
+    font-size: 36px;
+    font-style: bold;
+    
+
+}
+
+.section-7 p{
+    color: #ffffff;
+    font-family:5"Yaldevi Colombo", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: -5%;
+    
+}
+
+.voluntariado-imagen {
+    width:100%; 
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.voluntariado-imagen img {
+    width: 90%;
+    height: 220px;
+    object-fit: cover; 
+    display: block;
+}
+
+.Preguntas h1{
+     color: #000000;
+    font-family:"Yaldevi Colombo", sans-serif;
+    font-size: 60px;
+    font-style: bold;
+    padding: 0px 80px;
+    margin-top: 20px;
+}
+
+.Preguntas h2{
+   font-family:"Yaldevi Colombo", sans-serif; 
+   margin-left: 5%;
+   margin-top: 20px;
+}
+
+.Preguntas p{
+ font-family:"Yaldevi Colombo", sans-serif; 
+ margin-top: 20px; 
+ margin-left: 2.5%; 
+}
+
+/* 1. Sección principal de testimonios (Fondo negro) */
+.recuadro-2 {
+    width: 100%;
+    background-color: #000000; 
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+
+/* 2. Título de la sección */
+.titulo-seccion h1, 
+.recuadro-2 h1 {
+    color: #ffffff;
+    font-family: "Yaldevi Colombo", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+/* 3. Contenedor testimonoss con Scroll Horizontal */
+.Testimonios {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;         
+    white-space: nowrap;       
+    padding: 10px 80px 40px 80px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*  Cada tarjeta individual de testimonio */
+.testimonio {
+    flex: 0 0 450px;
+    background-color: #747474;
+    width: 80px;
+    padding: 50px;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: normal;
+}
+
+/* El texto de la cita  */
+.testimonio blockquote {
+    color: #ffffff;
+    font-family: "Yaldevi Colombo", sans-serif;
+    font-size: 15px;
+    font-display: auto;
+    line-height: 1.6;
+    margin: 0 0 40px 0;
+    border: none;
+    padding: 0;
+}
+
+.testimonio h3 {
+    color: #ffffff;
+    font-family: "Yaldevi Colombo", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Contenedor general del Footer */
+.footer-musa {
+    background-color:white; 
+    color: #2b2b2b;
+    padding: 50px 20px 30px 20px;
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Distribución  */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-redes h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+/* redes sociales */
+.iconos-sociales {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.iconos-sociales a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.iconos-sociales a:hover {
+    transform: scale(1.05);
+}
+
+
+.iconos-sociales img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    display: block;
+}
+
+.telefono {
+    font-size: 15px;
+    color: #444444;
+    margin: 0;
+}
+
+/* Tamaño del logo */
+.footer-logo img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #555555;
+    margin: 0;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #666666;
+}
